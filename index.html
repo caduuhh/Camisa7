@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Camisa 7</title>
+</head>
+
+<body>
+    <header class="container-fluid p-0 text-center">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Camisa 7</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container-fluid text-center bg-light">
+        <h1>Seja Sócio</h1>
+        <p>Ser Camisa 7 é ser co-owner do Botafogo. É fazer parte de um projeto que carrega o objetivo de colocar a estrela solitária de volta ao topo.</p>
+
+        <div class="row">
+            <figure class="col text-center">
+                <a href=""><img src="img/Alvinegro Frente.png" alt="Imagem plano Alvinegro" class="img-fluid"></a>
+                <figcaption>Alvinegro</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <a href=""><img src="img/Glorioso Frente@3x (2).png" alt="Imagem plano Glorioso" class="img-fluid"></a>
+                <figcaption>Glorioso</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <a href=""><img src="img/Preto Frente@3x (1).png" alt="Imagem plano Preto" class="img-fluid"></a>
+                <figcaption>Preto</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="container-fluid bg-secondary">
+        <h2>Planos</h2>
+        <p class="text-center">Veja nossos planos</p>
+        <table class="table table-secondary table-striped table-hover table-bordered border-secondary">
+            <caption class="text-center"></caption>
+            <thead class="table-secondary">
+                <tr>
+                    <th>Plano</th>
+                    <th>Valor  </th>
+                </tr>
+            </thead>
+
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Alvinegro</td>
+                    <td>R$ 100</td>
+                </tr>
+                <tr>
+                    <td>Glorioso</td>
+                    <td>R$ 200</td>
+                </tr>
+                <tr>
+                    <td>Preto</td>
+                    <td>R$ 300</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>  
+
+    <section class="container-fluid bg-light">
+        <h2 class="text-center">FAÇA PARTE DA FAMÍLIA ALVINEGRA</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" placeholder="eusoubotafoguense@gmail.com" class="form-control" name="email" id="email">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual plano deseja</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="alvinegro" value="Alvinegro" id="alvinegro">
+                    <label class="form-check-label" for="alvinegro">Alvinegro</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="glorioso" value="Glorioso" id="glorioso">
+                    <label class="form-check-label" for="glorioso">Glorioso</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="preto" value="Preto" id="preto">
+                    <label class="form-check-label" for="preto">Preto</label>
+                </div>
+
+            </fieldset>
+            <br>
+            <button class="btn btn-secondary">Salvar</button>
+        </form><br>
+    </section>
+
+    <footer class="container-fluid bg-secondary text-center p-1"><br>
+        <p>Desenvolvido por Carlos Eduardo - 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
